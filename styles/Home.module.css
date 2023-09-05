@@ -42,7 +42,7 @@
 
 .title {
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .title,
@@ -52,6 +52,8 @@
 
 .connect {
   margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: end;
 }
 
 .description {
@@ -136,10 +138,191 @@
   }
 }
 
+.header {
+ 
+  display: flex;
+  
+  
+}
+
+.leftSide{
+  width: 70%;
+}
+
+.rightSide{
+  background-color: white;
+  
+  color: black;
+  margin: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-weight: bold;
+  border-width: 15px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  
+  max-height: 700px;
+  
+  background: #E53935;
+  align-items: center;
+}
+
+.rightSideTittle{
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight:bold;
+  font-size:50px;
+}
+.rightSideWorld{
+  font-family:'Courier New', Courier, monospace;
+  margin: 1rem;
+  text-align: center;
+}
+
+.rightSideWorldClaim{
+  font-family:'Courier New', Courier, monospace;
+  margin: 1rem;
+  font-size: 100%
+  
+}
+
+.columnpay{
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  padding-bottom: 1rem;
+  
+}
+
+.columnpay div{
+  width: 50%;
+}
+
+.W3Button{
+  align-items: center;
+  text-align: center;
+}
+
+.inputp{
+  border-width: 4px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 5px;
+  width: 90%;
+  min-height: 35px;
+
+}
+
+.Web3Button{
+  border-color: green;
+} 
+
+
+
+
+
+
 .card,
 .footer {
   border-color: #222;
 }
 .logo img {
   filter: invert(1);
+}
+
+.intro{
+  background-color: white;
+  color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  padding: 2rem;
+  margin: 1rem;
+  width: 60%;
+  align-items: center;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  line-height: 1.5;
+  font-size: x-large;
+  
+}
+
+.introR {
+  background-color: white;
+  color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  
+  margin: 1rem auto; /* Center horizontally with 'auto' margins */
+  width: 45%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  font-size: 140px;
+}
+
+
+.containerIntro{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.imageIntroL{
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  margin-left: 20rem;
+}
+
+.imageIntroR{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-right: 20rem;
+}
+
+.introT {
+  background-color: white;
+  color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  
+  margin: 1rem auto; /* Center horizontally with 'auto' margins */
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  font-size: 140px;
+}
+
+.descriptionT{
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black; /* Grosor y color del borde (compatible con Webkit, como Chrome y Safari) */
+  text-stroke: 0.5px black;
+}
+
+.imageIntroT{
+  margin:auto ;
+  width: 60%;
+
+}
+
+.imageT{
+  display: flex;
+  align-items: center;
 }

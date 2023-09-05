@@ -18,5 +18,13 @@ a {
 
 body {
   color: #e7e8e8;
-  background: #070707;
+  background: #E53935;
+  background-image: url(christmast.png);
+  background-size: cover;
+
+}
+
+body ::before {
+
+  background-color: rgba(255, 255, 255, 0.); /* Cambia el valor alpha para ajustar la opacidad */
 }
