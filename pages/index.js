@@ -191,7 +191,7 @@ export default function Home() {
       <div className={styles.introT}>Tokenomics</div>
       </div>
       <div className={styles.descriptionT}>
-            <p>The price list will be 1.5$!. Get you investment receive 50% value since the start!</p>
+            <p>The price list will be 1.5$. Get you investment receive 50% value since the start!</p>
       </div>
       <div className={styles.imageT}>
       <div >
