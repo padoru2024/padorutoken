@@ -19,7 +19,7 @@ a {
 body {
   color: #e7e8e8;
   background: #E53935;
-  background-image: url(christmast.png);
+  background-image: url(./christmast.png);
   background-size: cover;
 
 }
